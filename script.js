@@ -6,4 +6,5 @@
  window.addEventListener("keydown", (event) => {
      console.log(event);
      eventKey.textContent = event.key;
+     eventWhich.textContent = event.which;
  });
