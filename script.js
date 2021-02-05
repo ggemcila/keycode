@@ -4,4 +4,6 @@
  const title = document.querySelector('h1');
  
  window.addEventListener("keydown", (event) => {
-   
+     console.log(event);
+     eventKey.textContent = event.key;
+ });
