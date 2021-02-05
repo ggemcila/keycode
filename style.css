@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Roboto&display=swap');
+
+body{
+    background: linear-gradient(90deg, grey , lightblue, snow);
+    font-family:'Roboto', sans-serif;
+}
+.wrapper{
+    width:75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+#press{
+    font-size: 30px;
+    margin-top: 40px ;
+}
+#key, #code, #which{
+    font-size: 40px;
+}
+h1{
+    font-size: 100px;
+}
+.box{
+    display: inline-block;
+}
+#code{
+    padding-left: 50px;
+    text-align: center;
+    color: grey;
+}
+#key{
+    padding-right: 30px;
+    text-align: center;
+    color: grey;
+}
+#which{
+    padding-left: 40px;
+    color: grey;
+}
+ 
