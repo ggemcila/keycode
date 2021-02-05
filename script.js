@@ -7,4 +7,5 @@
      console.log(event);
      eventKey.textContent = event.key;
      eventWhich.textContent = event.which;
+     eventCode.textContent = event.code;
  });
